@@ -302,10 +302,10 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
         private void LaunchCardView(String input, View view){
 
 //            view.setBackgroundColor(getResources().getColor(R.color.Gray200));
-
-            Intent NewReleaseIntent = new Intent(getActivity(), CardListActivity.class);
-            NewReleaseIntent.putExtra("TITLE",input);
-            startActivity(NewReleaseIntent);
+//
+//            Intent NewReleaseIntent = new Intent(getActivity(), CardListActivity.class);
+//            NewReleaseIntent.putExtra("TITLE",input);
+//            startActivity(NewReleaseIntent);
 
         }
 
